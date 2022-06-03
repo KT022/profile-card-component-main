@@ -1,0 +1,120 @@
+:root {
+    --d-cyan: hsl(185, 75%, 39%);
+    --vd-blue: hsl(229, 23%, 23%);
+    --dg-blue: hsl(227, 10%, 46%);
+    --d-gray: hsl(0, 0%, 59%);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container,
+.bg {
+    background-color: var(--d-cyan);
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.bg {
+    background: url(./images/bg-pattern-bottom.svg);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    max-width: 350px;
+    background: white;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 8px;
+}
+
+#bg-card {
+    width: 100%;
+    max-height: 25%;
+    border-radius: 20px 20px 0 0;
+}
+
+.detail-info {
+    text-align: center;
+    
+}
+
+.detail-info h3 {
+    margin-top: 80px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: var(--vd-blue);
+}
+
+.detail-info p {
+    margin-top: 10px;
+    color: var(--d-gray);
+}
+.social-info {
+    border-top: .1px rgb(198, 198, 198) solid;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    width: 100%;
+}
+
+#num26 {
+    color: var(--d-gray);
+    margin-left: 6px;
+}
+
+.social1 p {
+    color: var(--d-gray);
+    margin-top: 5px;
+}
+
+.social2 p {
+    color: var(--d-gray);
+    margin-top: 5px;
+}
+
+.social3 p {
+    color: var(--d-gray);
+    margin-top: 5px;
+}
+
+.social1 h3 {
+    color: var(--vd-blue);
+    margin-bottom: 0;
+}
+
+.social2 h3 {
+    color: var(--vd-blue);
+    margin-bottom: 0;
+}
+
+.social3 h3 {
+    color: var(--vd-blue);
+    margin-bottom: 0;
+}
+
+#avatar{
+    border-radius: 50%;
+    border: white 3px solid;
+    height: 120px;
+    width: 120px;
+    z-index: 1;
+    /* position: absolute; */
+    margin-top: -3.6em;
+    margin-bottom: -4em;
+}
